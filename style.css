@@ -1,0 +1,23 @@
+table{
+    width: 70%;
+    align:"center";
+    font-family: Arial;
+    border-spacing: 8px;
+}
+.bt{
+    color: beige;
+    background-color: forestgreen;
+    border: solid forestgreen 4px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+#div1{
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    background: aliceblue;
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
