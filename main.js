@@ -24,7 +24,7 @@ function dell(val) {
 }
 function show() {
     let table="<table  id='table1'><tr> <th style='text-align: left'>Product Name</th>\n" +
-        "            <th colspan='2' style='color: red;text-align: right'>9 product</th></tr>"
+        "            <th colspan='2' style='color: red;text-align: right'>"+arr.length+" product</th></tr>"
     for (let i=0;i<arr.length;i++){
         table+="<tr><td>"+arr[i]+"</td><td><input class='bt' type='button' value='Edit'onclick='edit("+i+")'>" +
             "</td><td><input class='bt' type='button' value='Delete' onclick='dell("+i+")'></td></tr>"
